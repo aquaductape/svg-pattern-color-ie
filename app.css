@@ -1,0 +1,22 @@
+:root {
+  --gradient: blue;
+  --stroke: blue;
+}
+
+.container {
+  width: 100%;
+}
+
+svg {
+  width: 100%;
+}
+
+#hero-background-gradient {
+  stop-color: var(--gradient);
+  transition: 500ms stop-color;
+}
+
+#hero-stroke {
+  stop-color: var(--stroke);
+  transition: 500ms stop-color;
+}
